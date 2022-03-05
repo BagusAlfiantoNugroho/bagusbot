@@ -1,15 +1,15 @@
 module.exports = {
-  Admins: ["UserID", "UserID"], //Admins of the bot
+  Admins: ["449111540356874251", "449111540356874251"], //Admins of the bot
   ExpressServer: true,//If you wanted to make the website run or not
-  DefaultPrefix: process.env.Prefix || ">", //Default prefix, Server Admins can change the prefix
+  DefaultPrefix: process.env.Prefix || ".", //Default prefix, Server Admins can change the prefix
   Port: 3000, //Which port website gonna be hosted
-  SupportServer: "https://discord.gg/sbySMS7m3v", //Support Server Link
-  Token: process.env.Token || "", //Discord Bot Token
-  ClientID: process.env.Discord_ClientID || "", //Discord Client ID
+  SupportServer: "https://discord.gg/B3nP2XBz", //Support Server Link
+  Token: process.env.Token || "ODgyNjI2NDA2NTA3NTExODg4.YS-H5Q.SyQTfWIB6xMXe7xNfx07VreUxJY", //Discord Bot Token
+  ClientID: process.env.Discord_ClientID || "535851588296638471", //Discord Client ID
   ClientSecret: process.env.Discord_ClientSecret || "", //Discord Client Secret
   Scopes: ["identify", "guilds", "applications.commands"], //Discord OAuth2 Scopes
   CallbackURL: "/api/callback", //Discord OAuth2 Callback URL
-  "24/7": false, //If you want the bot to be stay in the vc 24/7
+  "24/7": true, //If you want the bot to be stay in the vc 24/7
   CookieSecret: "Pikachu is cute", //A Secret like a password
   IconURL:
     "https://raw.githubusercontent.com/SudhanPlayz/Discord-MusicBot/master/assets/logo.gif", //URL of all embed author icons | Dont edit unless you dont need that Music CD Spining
